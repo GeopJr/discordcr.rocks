@@ -1,6 +1,6 @@
 # Installing discordcr
 
-Before installing discordcr, you need to first initialize your Crystal app. More on that [here](../initialize/index.html).
+Before installing discordcr, you need to first initialize your Crystal app. More on that [here](../initializing.html).
 
 After doing that, you only need to add the following snippet in your `shard.yml` file:
 
