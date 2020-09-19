@@ -1,5 +1,7 @@
 # Summary
 
+# discordcr Guide
+----
 - [discordcr](discordcr.md)
 - [Installing](installing/README.md)
     - [Crystal](installing/crystal.md)
