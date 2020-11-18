@@ -1,0 +1,22 @@
+{
+  "name": "discordcr-rocks",
+  "version": "0.0.1",
+  "description": "A guide for discordcr, the Discord API wrapper for Crystal.",
+  "main": "index.js",
+  "authors": {
+    "name": "GeopJr",
+    "email": "geopjr@geopjr.xyz"
+  },
+  "repository": "https://github.com/GeopJr/discordcr.rocks/discordcr-rocks",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-theme-yuu": "^2.3.0"
+  }
+}

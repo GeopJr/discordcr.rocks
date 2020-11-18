@@ -22,14 +22,7 @@ likely doesn't.
 
 > from: [https://github.com/discordcr/discordcr](https://github.com/discordcr/discordcr)
 
-## This guide will cover the following:
-
-- How to install and use discordcr
-- How to handle incoming payloads
-- How to use cache
-- And more!
-
-## Don't know Crystal? Here's some resources:
+## Learning Crystal
 
 - [Crystal for Rubyists](http://www.crystalforrubyists.com/) - Free book to bootstrap your Crystal journey
 - [Crystal Mastery](https://crystalmastery.io/) - Screencasts for learning Crystal
@@ -41,11 +34,11 @@ likely doesn't.
 
 > from: [https://github.com/veelenga/awesome-crystal](https://github.com/veelenga/awesome-crystal)
 
-## Carc.in
-
+:::tip
 [Carc.in](https://carc.in/) is an online Crystal, Ruby and C compiler. Many examples here might contain a link to it in an attempt to showcase them in action.
+:::
 
-## Notes:
+## Notes
 
 - This guide is heavily inspired by [https://discordjs.guide/](https://discordjs.guide/), show them some love!
 - This guide is open-source! Feel free to contribute: [https://github.com/GeopJr/discordcr.rocks](https://github.com/GeopJr/discordcr.rocks)

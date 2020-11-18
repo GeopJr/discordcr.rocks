@@ -1,0 +1,17 @@
+name: Vuepress Build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, '[build]')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: src/.vuepress/dist/
+          CNAME: discordcr.rocks
