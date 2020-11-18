@@ -11,7 +11,7 @@ jobs:
       - name: vuepress-deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: src/.vuepress/dist/
           CNAME: discordcr.rocks
