@@ -18,5 +18,8 @@
     "vuepress": "^1.5.3",
     "vuepress-plugin-autometa": "^0.1.13",
     "vuepress-theme-yuu": "^2.3.0"
+  },
+  "dependencies": {
+    "vue-discord-message": "^5.0.1"
   }
 }
