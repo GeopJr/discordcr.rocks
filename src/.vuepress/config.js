@@ -112,6 +112,7 @@ module.exports = {
             'installation-initialization/',
             'installation-initialization/installing-discordcr',
             'installation-initialization/installing-and-setting-up-an-editor',
+            'installation-initialization/creating-your-discord-application'
           ]
         }
       ]
