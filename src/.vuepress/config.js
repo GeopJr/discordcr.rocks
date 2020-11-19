@@ -14,9 +14,28 @@ module.exports = {
   title: 'discordcr Guide',
   description: description,
   head: [
+    ['meta', {
+      charset: 'utf-8'
+    }],
+    ['meta', {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1.0'
+    }],
     ['link', {
       rel: 'icon',
       href: '/images/icon.png'
+    }],
+    ['meta', {
+      name: 'twitter:image',
+      href: '/images/icon.png'
+    }],
+    ['meta', {
+      name: 'image',
+      content: '/images/icon.png'
+    }],
+    ['meta', {
+      itemprop: 'image',
+      content: '/images/icon.png'
     }],
     ['meta', {
       name: 'og:image',
@@ -57,6 +76,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+          text: 'discordcr',
+          link: 'https://github.com/discordcr/discordcr/',
+      },
+      {
         text: 'Docs',
         ariaLabel: 'Docs Menu',
         items: [{
@@ -86,9 +109,9 @@ module.exports = {
           title: 'Installation & Initialization',
           collapsable: false,
           children: [
-            'installation/',
-            'installation/discordcr',
-            'installation/editor'
+            'installation-initialization/',
+            'installation-initialization/installing-discordcr',
+            'installation-initialization/installing-and-setting-up-an-editor',
           ]
         }
       ]

@@ -23,5 +23,9 @@ There are many amazing code editors to choose from that can improve your program
   * [vscode-crystal](https://github.com/g3ortega/vscode-crystal) - Crystal language support in VSCode
   * [vscode-crystal-ide](https://github.com/crystal-lang-tools/crystal-ide) - Crystal IDE powered by [Language Server Protocol](https://code.visualstudio.com/blogs/2016/06/27/common-language-protocol)
   * [vscode-crystal-lang](https://github.com/crystal-lang-tools/vscode-crystal-lang) - Formatter, linter and syntax highlighting for `cr` and `ecr` files
-  
+
 > from: [https://github.com/veelenga/awesome-crystal](https://github.com/veelenga/awesome-crystal)
+
+:::tip
+Use `crystal tool format` to format all your files!
+:::
