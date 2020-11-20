@@ -42,7 +42,7 @@ client.run
           !ping
       </discord-message>
       <discord-message :bot="true" author="discordcr-bot" avatar="images/icon.png" role-color="#776791">
-          pong
+          Pong!
       </discord-message>
       <discord-message>
           Thanks!
