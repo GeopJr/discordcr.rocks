@@ -68,8 +68,8 @@ module.exports = {
       defaultDarkTheme: true,
       disableThemeIgnore: true,
       labels: {
-				darkTheme: "Dark Theme"
-			}
+        darkTheme: "Dark Theme"
+      }
     },
     nav: [{
         text: 'Guide',
@@ -106,13 +106,13 @@ module.exports = {
           ]
         },
         {
-          title: 'Installation & Initialization',
+          title: 'Getting Started',
           collapsable: false,
           children: [
-            'installation-initialization/',
-            'installation-initialization/installing-discordcr',
-            'installation-initialization/installing-and-setting-up-an-editor',
-            'installation-initialization/creating-your-discord-application'
+            'getting-started/',
+            'getting-started/installing-discordcr',
+            'getting-started/installing-and-setting-up-an-editor',
+            'getting-started/creating-your-discord-application'
           ]
         }
       ]

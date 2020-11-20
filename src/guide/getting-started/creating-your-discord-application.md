@@ -6,17 +6,17 @@ Creating an application is really easy:
 - Head over to the [Developer Portal](https://discord.com/developers/applications).
 - Click the **New Application** button.
 
-![New Application Button](../images/installation/application-new.png)
+![New Application Button](../images/getting-started/application-new.png)
 
 - Fill in its name and click the **Create** button.
 - You should now be looking at the following page. Feel free to add any info or images.
 
-![General Info Application](../images/installation/application-general.png)
+![General Info Application](../images/getting-started/application-general.png)
 
 - From the sidebar, click on the **Bot** category and click on the **Add Bot** button.
 - Look around the page and don't be afraid to play with the settings!
 
-![Bot Application](../images/installation/application-bot.png)
+![Bot Application](../images/getting-started/application-bot.png)
 
 - That's all, your application is ready!
 
