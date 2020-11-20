@@ -61,6 +61,8 @@ module.exports = {
   theme: "yuu",
   themeConfig: {
     repo: 'GeopJr/discordcr.rocks',
+    docsDir: "src",
+    docsBranch: "main",
     editLinks: true,
     editLinkText: 'Edit',
     lastUpdated: true,
