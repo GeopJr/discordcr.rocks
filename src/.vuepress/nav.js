@@ -11,7 +11,7 @@ module.exports = [{
     ariaLabel: 'Docs Menu',
     items: [{
         text: 'discordcr Docs',
-        link: 'https://discordcr.geopjr.xyz/' //temp
+        link: 'https://dcr.shardlab.dev/master/'
       },
       {
         text: 'Crystal Docs',
