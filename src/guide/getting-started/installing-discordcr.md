@@ -5,7 +5,7 @@ To install discordcr, you only need to add the following snippet in your app's `
 ```yml
 dependencies:
   discordcr:
-    github: discordcr/discordcr
+    github: shardlab/discordcr
 ```
 
 :::tip
@@ -21,15 +21,15 @@ That means that if the current release of discordcr is missing something that's 
 ```yml
 dependencies:
   discordcr:
-    github: discordcr/discordcr
+    github: shardlab/discordcr
     branch: master
 ```
 or
 ```yml
 dependencies:
   discordcr:
-    github: discordcr/discordcr
-    commit: 23825f9cc035b36dd6e6810cdab8abb600472ce7
+    github: shardlab/discordcr
+    commit: 1b428f1de4d17e1a431e6d1f125c52548cacbb24
 ```
 
 Your `shard.yml` should now look like this:
@@ -47,7 +47,7 @@ targets:
 
 dependencies:
   discordcr:
-    github: discordcr/discordcr
+    github: shardlab/discordcr
 
 crystal: 0.35.1
 
@@ -63,7 +63,7 @@ All that's left now is to install it!
 ```sh
 $ shards install
 Resolving dependencies
-Fetching https://github.com/discordcr/discordcr.git
-Installing discordcr (0.4.0)
+Fetching https://github.com/shardlab/discordcr.git
+Installing discordcr (0.4.0 at 1b428f1)
 Writing shard.lock
 ```

@@ -4,7 +4,7 @@ module.exports = [{
   },
   {
     text: 'discordcr',
-    link: 'https://github.com/discordcr/discordcr/',
+    link: 'https://github.com/shardlab/discordcr',
   },
   {
     text: 'Docs',

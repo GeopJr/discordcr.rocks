@@ -20,7 +20,7 @@ This means that the user has full control over them, but also full
 responsibility. discordcr does not support user accounts; it may work but
 likely doesn't.
 
-> from: [https://github.com/discordcr/discordcr](https://github.com/discordcr/discordcr)
+> from: [https://github.com/shardlab/discordcr](https://github.com/shardlab/discordcr)
 
 ## Learning Crystal
 
